@@ -1,4 +1,4 @@
-# Tari Godsproperty Pereowei <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="28" alt="Waving hand"/>
+# Tari G. Pereowei <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="28" alt="Waving hand"/>
 
 🚀 **Full Stack & Blockchain Developer** | 🧠 Problem Solver | 🎨 Product-Minded Builder
 
@@ -11,11 +11,10 @@ I currently work on independent and client projects while deepening my specializ
 
 ## 🛠️ Core Skills
 
-- ⚡ JavaScript & TypeScript
+- ⚡ JavaScript & TypeScript &PHP
 - ⚛️ React and modern frontend frameworks
 - 🧩 Node.js & Express
 - 🗄️ MongoDB and SQL/NoSQL databases
-- 🔐 Solidity & Cairo
 - 🌐 Web3, Ethereum & Starknet
 - 🎯 HTML5, CSS3, and UI engineering
 - ☁️ DevOps and cloud deployment fundamentals
@@ -46,11 +45,9 @@ I write about software, resilience, growth, and practical technology application
 ## 🌍 Contact & Socials
 
 - 🌐 Website: https://tarispace.me
-- 🔗 LinkedIn: https://linkedin.com/in/tari
 - 🐦 Twitter: https://twitter.com/tarilove19
-- 📘 Facebook: https://facebook.com/tarilove0
-- 📧 Email: mailto:contact@tarispace.me
-- 💬 WhatsApp: https://wa.me/2347046457549
+- 📧 Email: contact@tarispace.me
+
 
 ---
 
