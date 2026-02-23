@@ -1,70 +1,64 @@
-# Tari G. Pereowei <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="28" alt="Waving hand"/>
-
-🚀 **Full Stack & Blockchain Developer** | 🧠 Problem Solver | 🎨 Product-Minded Builder
-
-## 👨‍💻 About Me
-
-I am a full stack and blockchain developer based in Bayelsa State, Nigeria 🇳🇬.  
-I build modern, scalable web applications and digital products that combine clean architecture, strong UX, and real business value.
-
-I currently work on independent and client projects while deepening my specialization in Web3, smart contracts, and decentralized application systems.
-
-## 🛠️ Core Skills
-
-- ⚡ JavaScript & TypeScript &PHP
-- ⚛️ React and modern frontend frameworks
-- 🧩 Node.js & Express
-- 🗄️ MongoDB and SQL/NoSQL databases
-- 🌐 Web3, Ethereum & Starknet
-- 🎯 HTML5, CSS3, and UI engineering
-- ☁️ DevOps and cloud deployment fundamentals
-
-## 🌟 Featured Projects
-
-### 🧱 Starknet Infrastructure
-Comprehensive blockchain infrastructure platform built on Starknet L2, with smart contract deployment and Cairo developer tooling.
-
-### 🛒 Taricents Platform
-Modern e-commerce platform with product catalog, cart flow, and secure checkout, optimized for performance and usability.
-
-### 💎 Syre Bijouteries
-Elegant jewelry storefront experience with premium visual storytelling and responsive, conversion-focused design.
-
-## 📚 Experience & Learning
-
-- 💼 Full Stack Developer, Independent & Client Projects (2022–Present)
-- ⛓️ Blockchain & Web3 Specialization, Self-Directed (2024–Present)
-- 🎓 Full Stack Web Development Bootcamp (2024–2025)
-- 🧪 Bachelor’s Degree in Chemistry Education, Federal University Otuoke (2018–2022)
-
-## ✍️ Writing & Perspective
-
-I write about software, resilience, growth, and practical technology application.  
-📝 Featured article: **Out of the Smoke: The Story Behind the Code**
-
-## 🌍 Contact & Socials
-
-- 🌐 Website: https://tarispace.me
-- 🐦 Twitter: https://twitter.com/tarilove19
-- 📧 Email: contact@tarispace.me
-
+# 🚀 Full Stack & Blockchain Developer  
+# 🧠 Problem Solver  
+# 🎨 Product-Minded Builder
 
 ---
 
-✨ *Building systems with purpose. Designing experiences with impact.*
+**Animated Typing Effect Live Demo:**  
+Check out my animated intro: [mywebsite.com/animated-profile](https://mywebsite.com/animated-profile)
 
+---
 
-<!--
-**decodelover/decodelover** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Animation Source Code
 
-Here are some ideas to get you started:
+```tsx
+// AnimatedTyping.tsx
+import React, { useEffect, useState } from "react";
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+const phrases = [
+  "🚀 Full Stack & Blockchain Developer",
+  "🧠 Problem Solver",
+  "🎨 Product-Minded Builder"
+];
+
+const letterDelay = 70;
+const phraseDelay = 900;
+
+export default function AnimatedTyping() {
+  const [phraseIndex, setPhraseIndex] = useState(0);
+  const [displayedLetters, setDisplayedLetters] = useState("");
+  const [letterIndex, setLetterIndex] = useState(0);
+
+  useEffect(() => {
+    if (letterIndex < phrases[phraseIndex].length) {
+      const timeout = setTimeout(() => {
+        setDisplayedLetters(prev => prev + phrases[phraseIndex][letterIndex]);
+        setLetterIndex(letterIndex + 1);
+      }, letterDelay);
+      return () => clearTimeout(timeout);
+    } else {
+      const timeout = setTimeout(() => {
+        setPhraseIndex((phraseIndex + 1) % phrases.length);
+        setDisplayedLetters("");
+        setLetterIndex(0);
+      }, phraseDelay);
+      return () => clearTimeout(timeout);
+    }
+  }, [letterIndex, phraseIndex]);
+
+  return (
+    <div style={{ fontFamily: "monospace", fontSize: "1.5rem" }}>
+      {displayedLetters}
+      <span className="blinking-cursor">|</span>
+      <style>{`  
+        .blinking-cursor {
+          animation: blink .8s linear infinite;
+        }
+        @keyframes blink {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0; }
+        }
+      `}</style>
+    </div>
+  );
+}
