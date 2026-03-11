@@ -3,12 +3,12 @@
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hey%20There!%20I'm%20Tari%20%F0%9F%91%8B&fontSize=45&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Blockchain%20Enthusiast%20%7C%20Creative%20Problem%20Solver&descAlignY=58&descAlign=50" width="100%" alt="Header Banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=250&section=header&text=Hey%20There!%20I'm%20Tari%20%F0%9F%91%8B&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Blockchain%20Enthusiast%20%7C%20Creative%20Problem%20Solver&descAlignY=55&descSize=18" width="100%" alt="Header Banner"/>
 </p>
 
 <!-- Animated Typing SVG - Multiple Lines -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&pause=1000&color=6C63FF&center=true&vCenter=true&width=650&height=60&lines=Hey+There!+I'm+Tari+%F0%9F%91%8B;Full+Stack+Developer+%F0%9F%9A%80;Blockchain+Enthusiast+%E2%9B%93%EF%B8%8F;Creative+Problem+Solver+%F0%9F%92%A1;Web3+%26+DeFi+Explorer+%F0%9F%8C%8F;Building+the+Decentralized+Future+%E2%9C%A8" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&pause=1000&color=6C63FF&center=true&vCenter=true&width=650&height=60&lines=Full+Stack+Developer+%F0%9F%9A%80;Blockchain+Enthusiast+%E2%9B%93%EF%B8%8F;Web3+%26+DeFi+Builder+%F0%9F%92%A1;Open+Source+Contributor+%F0%9F%8C%9F" alt="Typing SVG"/>
 </p>
 
 <!-- Status Badges -->
@@ -148,15 +148,43 @@ const tari = {
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,solidity,rust&theme=dark&perline=7" alt="Languages"/>
 </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" alt="Solidity"/>
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust"/>
+</p>
 
 <h4 align="center">🚀 Frameworks &amp; Libraries</h4>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind,bootstrap,vue&theme=dark&perline=7" alt="Frameworks"/>
 </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
+  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="Vue.js"/>
+</p>
 
 <h4 align="center">🔧 Tools &amp; Platforms</h4>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,firebase,mongodb,mysql,docker&theme=dark&perline=7" alt="Tools"/>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,firebase,mongodb,mysql,docker&theme=dark&perline=8" alt="Tools"/>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
 </p>
 
 <h4 align="center">⛓️ Blockchain &amp; Web3</h4>
@@ -214,7 +242,7 @@ const tari = {
 </h2>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=decodelover&theme=tokyonight&no-frame=true&no-bg=true&column=3&margin-w=12&margin-h=12" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=decodelover&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=15" alt="GitHub Trophies"/>
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
